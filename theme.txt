@@ -1,0 +1,130 @@
+# P.R.A.N.A. tech theme - standalone, 1920x1080 only
+
+title-text: ""
+desktop-image: "background.png"
+desktop-image-scale-method: "crop"
+desktop-image-h-align: "center"
+desktop-image-v-align: "center"
+desktop-color: "#050913"
+
+terminal-font: "Consolas Regular 14"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+message-font: "MiSans Regular 14"
+message-color: "#F3F7FF"
+
+# ---- boot menu ----
++ boot_menu {
+  left = 96
+  top = 259
+  width = 768
+  height = 540
+  item_font = "MiSans Medium 18"
+  selected_item_font = "MiSans Medium 18"
+  item_color = "#F4F8FF"
+  selected_item_color = "#FFFFFF"
+  icon_width = 30
+  icon_height = 30
+  item_icon_space = 18
+  item_height = 34
+  item_padding = 6
+  item_spacing = 10
+  selected_item_pixmap_style = "select_*.png"
+  scrollbar = false
+}
+
+# ---- countdown ----
++ label {
+  id = "__timeout__"
+  left = 96
+  top = 820
+  width = 600
+  height = 24
+  text = "Booting in %d seconds"
+  font = "Consolas Regular 14"
+  color = "#B9C9E8"
+  align = "left"
+}
+
+# ---- status block ----
++ label {
+  left = 96
+  top = 864
+  width = 460
+  height = 20
+  text = "USER : SENSEI"
+  font = "Consolas Regular 14"
+  color = "#7F9ABF"
+  align = "left"
+}
+
++ label {
+  left = 96
+  top = 886
+  width = 460
+  height = 20
+  text = "ARCHIVE : ONLINE"
+  font = "Consolas Regular 14"
+  color = "#7F9ABF"
+  align = "left"
+}
+
++ label {
+  left = 96
+  top = 908
+  width = 460
+  height = 20
+  text = "LINK STATUS : STABLE"
+  font = "Consolas Regular 14"
+  color = "#7F9ABF"
+  align = "left"
+}
+
+# ---- slogan ----
++ label {
+  left = 96
+  top = 950
+  width = 460
+  height = 20
+  text = "Stay with you,"
+  font = "MiSans Regular 14"
+  color = "#D7E5F8"
+  align = "left"
+}
+
++ label {
+  left = 96
+  top = 972
+  width = 460
+  height = 20
+  text = "wherever you go."
+  font = "MiSans Regular 14"
+  color = "#D7E5F8"
+  align = "left"
+}
+
+# ---- bottom bar ----
++ label {
+  left = 96
+  top = 1030
+  width = 1100
+  height = 28
+  text = "Up/Down Select   Enter Boot   e Edit   c Console"
+  font = "MiSans Regular 14"
+  color = "#B9C9E8"
+  align = "left"
+}
+
++ label {
+  left = 1344
+  top = 1030
+  width = 480
+  height = 28
+  text = "P.R.A.N.A. // BOOT SELECT"
+  font = "Consolas Regular 14"
+  color = "#B9C9E8"
+  align = "right"
+}
